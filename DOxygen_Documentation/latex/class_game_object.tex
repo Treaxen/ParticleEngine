@@ -1,0 +1,92 @@
+\hypertarget{class_game_object}{}\section{Game\+Object Class Reference}
+\label{class_game_object}\index{Game\+Object@{Game\+Object}}
+Inheritance diagram for Game\+Object\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_game_object}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_game_object_a8f340c31ff5aa975ae2ed7439fb5d63f}\label{class_game_object_a8f340c31ff5aa975ae2ed7439fb5d63f}} 
+{\bfseries Game\+Object} (\mbox{\hyperlink{class_sprite}{Sprite}} $\ast$sprite)
+\item 
+\mbox{\Hypertarget{class_game_object_a53997902466d2ecb317c4318a3d69816}\label{class_game_object_a53997902466d2ecb317c4318a3d69816}} 
+void {\bfseries Set\+Pos} (\mbox{\hyperlink{class_vector3}{Vector3}} pos)
+\item 
+\mbox{\Hypertarget{class_game_object_ab66324d123ba785d66a11b386a5c0893}\label{class_game_object_ab66324d123ba785d66a11b386a5c0893}} 
+const \mbox{\hyperlink{class_vector3}{Vector3}} \& {\bfseries Get\+Pos} ()
+\item 
+\mbox{\Hypertarget{class_game_object_a82d69d7c9ee269b19cc3528b64281355}\label{class_game_object_a82d69d7c9ee269b19cc3528b64281355}} 
+void {\bfseries Set\+Velo\+City} (\mbox{\hyperlink{class_vector3}{Vector3}} velo)
+\item 
+\mbox{\Hypertarget{class_game_object_a1c0f6935d6ffba2fb08c14f1ee09a6d1}\label{class_game_object_a1c0f6935d6ffba2fb08c14f1ee09a6d1}} 
+const \mbox{\hyperlink{class_vector3}{Vector3}} \& {\bfseries Get\+Velocity} ()
+\item 
+\mbox{\Hypertarget{class_game_object_a58a597b9cd7c9a9e37df1c9d428aa67e}\label{class_game_object_a58a597b9cd7c9a9e37df1c9d428aa67e}} 
+void {\bfseries Set\+Rotation} (float rotate)
+\item 
+\mbox{\Hypertarget{class_game_object_afe8fb5f6303da023e500b1d4b1953b7b}\label{class_game_object_afe8fb5f6303da023e500b1d4b1953b7b}} 
+float {\bfseries Get\+Rotation} ()
+\item 
+\mbox{\Hypertarget{class_game_object_a4ae7e9b3601eb05064f894744aac6074}\label{class_game_object_a4ae7e9b3601eb05064f894744aac6074}} 
+void {\bfseries Set\+Scale} (float scale)
+\item 
+\mbox{\Hypertarget{class_game_object_a513e27cf7361d3c0a9cac3c994cd9017}\label{class_game_object_a513e27cf7361d3c0a9cac3c994cd9017}} 
+float {\bfseries Get\+Scale} ()
+\item 
+\mbox{\Hypertarget{class_game_object_a56f7b1343ae2edad88a1ba9662e76947}\label{class_game_object_a56f7b1343ae2edad88a1ba9662e76947}} 
+void {\bfseries Set\+Sprite} (\mbox{\hyperlink{class_sprite}{Sprite}} $\ast$sprite)
+\item 
+\mbox{\Hypertarget{class_game_object_a58483eb15bd91fc2ec516b1e234cd660}\label{class_game_object_a58483eb15bd91fc2ec516b1e234cd660}} 
+\mbox{\hyperlink{class_sprite}{Sprite}} $\ast$ {\bfseries Get\+Sprite} ()
+\item 
+\mbox{\Hypertarget{class_game_object_a22b28d62e571844384d6d1a5e6eec7a8}\label{class_game_object_a22b28d62e571844384d6d1a5e6eec7a8}} 
+void {\bfseries Set\+Color} (const \mbox{\hyperlink{class_color}{Color}} \&color)
+\item 
+\mbox{\Hypertarget{class_game_object_a0a6f875bbb2657a2a0bed2126a84f0b7}\label{class_game_object_a0a6f875bbb2657a2a0bed2126a84f0b7}} 
+const \mbox{\hyperlink{class_color}{Color}} \& {\bfseries Get\+Color} ()
+\item 
+\mbox{\Hypertarget{class_game_object_a276120a8b680ba3c6e5e8f459c9fc0f4}\label{class_game_object_a276120a8b680ba3c6e5e8f459c9fc0f4}} 
+void {\bfseries set\+Blending\+Mode} (enum\+Blend blend)
+\item 
+\mbox{\Hypertarget{class_game_object_a53e80c55ef5db02d9d70e0487af7464c}\label{class_game_object_a53e80c55ef5db02d9d70e0487af7464c}} 
+enum\+Blend {\bfseries get\+Blendingmode} ()
+\item 
+\mbox{\Hypertarget{class_game_object_abb64143e72358beb808db22182517802}\label{class_game_object_abb64143e72358beb808db22182517802}} 
+void {\bfseries draw} ()
+\item 
+\mbox{\Hypertarget{class_game_object_adad7d284b670db722a2fda8e6a7997e3}\label{class_game_object_adad7d284b670db722a2fda8e6a7997e3}} 
+virtual void {\bfseries update} ()
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_game_object_ac117fc8efcc2ccb52e6536c87df8fad1}\label{class_game_object_ac117fc8efcc2ccb52e6536c87df8fad1}} 
+\mbox{\hyperlink{class_sprite}{Sprite}} $\ast$ {\bfseries m\+\_\+sprite}
+\item 
+\mbox{\Hypertarget{class_game_object_acd172f669e9fbea80a388448fb450af5}\label{class_game_object_acd172f669e9fbea80a388448fb450af5}} 
+\mbox{\hyperlink{class_vector3}{Vector3}} {\bfseries m\+\_\+position}
+\item 
+\mbox{\Hypertarget{class_game_object_a86fcd612b3f44c90454fa50e875f73f1}\label{class_game_object_a86fcd612b3f44c90454fa50e875f73f1}} 
+\mbox{\hyperlink{class_vector3}{Vector3}} {\bfseries m\+\_\+velocity}
+\item 
+\mbox{\Hypertarget{class_game_object_a69c4523411c24fd3a4e2b86e748e6742}\label{class_game_object_a69c4523411c24fd3a4e2b86e748e6742}} 
+float {\bfseries m\+\_\+rotation}
+\item 
+\mbox{\Hypertarget{class_game_object_aeacf313d6a432fd7ec7c4197f85a2dc1}\label{class_game_object_aeacf313d6a432fd7ec7c4197f85a2dc1}} 
+float {\bfseries m\+\_\+scale}
+\item 
+\mbox{\Hypertarget{class_game_object_a1771d24fddc27ba4f1940aaaf8a103eb}\label{class_game_object_a1771d24fddc27ba4f1940aaaf8a103eb}} 
+\mbox{\hyperlink{class_color}{Color}} {\bfseries m\+\_\+color}
+\item 
+\mbox{\Hypertarget{class_game_object_aa2167915430a65181290a0b13168bbe1}\label{class_game_object_aa2167915430a65181290a0b13168bbe1}} 
+enum\+Blend {\bfseries m\+\_\+blendmode}
+\end{DoxyCompactItemize}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+F\+P\+S Counter/Game\+Object.\+h\item 
+F\+P\+S Counter/Game\+Object.\+cpp\end{DoxyCompactItemize}
